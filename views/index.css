@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1509228467657-7154d091919f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+.glass-navbar,
+.glass-jumbotron,
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.glass-jumbotron {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.glass-card {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.bg-image {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

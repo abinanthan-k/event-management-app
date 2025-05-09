@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+/* Event List */
+#event-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Event Cards */
+.event {
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.event:hover {
+  transform: translateY(-5px);
+}
+
+/* Event Text */
+.event h5 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.event p {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.event .text-muted {
+  font-style: italic;
+  font-size: 0.85rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #event-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .event {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+/* Background and Spacing */
+.bg-image {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
